@@ -1,0 +1,74 @@
+/*small screen and mobile*/
+
+@media (max-width: 991px){
+    
+    .tabs, .sub-list, .standard, .awesome,
+    .price, .testemonials, .contact{
+    padding-bottom: 40px;
+    padding-top: 40px
+    }
+    
+    .head-border::after{
+        margin: 25px auto
+    }
+    
+    .text-center-xs{
+        text-align: center
+    }
+    
+    header .center-vh{
+        margin-top: 100px
+    }
+    
+    header p:first-of-type:after{
+        margin: 25px auto
+    }
+    
+    header button{
+        margin: 30px auto;
+        display: block
+    }
+    
+    header form{
+        margin-bottom: 100px 
+    }
+    
+    .social i{
+        margin: 15px 10px
+    }
+    
+    .tabs .tab{
+        margin-bottom: 30px
+    }
+    
+    .sub-list i{
+        float: none !important;
+        margin: 10px 0
+    }
+    
+    .sub-list .icon-info{
+        float: none !important;
+        width: 100%;
+        margin: 0
+    }
+    
+    .awesome .feature{
+        margin-bottom: 30px
+    }
+    
+    .price .row{
+        margin-top: 20px
+    }
+    
+    .price .price-box{
+        margin-bottom: 30px
+    }
+    
+    .testemonials .media{
+        margin-bottom: 30px
+    }
+    
+    .stylish .overlay{
+        padding: 25px 0
+    }
+}
